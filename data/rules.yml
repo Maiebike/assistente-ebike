@@ -60,4 +60,53 @@ rules:
   steps:
     - intent: tours_by_price
     - action: utter_tours_by_price
+- rule: Elenco escursioni da Caramanico
+  steps:
+    - intent: elenco_escursioni_caramanico
+    - action: utter_elenco_escursioni_caramanico
+
+- rule: Elenco escursioni facili
+  steps:
+    - intent: elenco_escursioni_facili
+    - action: utter_elenco_escursioni_facili
+
+- rule: Escursioni ordinate per durata
+  steps:
+    - intent: elenco_escursioni_per_durata
+    - action: utter_elenco_escursioni_per_durata
+
+- rule: Escursioni ordinate per distanza
+  steps:
+    - intent: elenco_escursioni_per_distanza
+    - action: utter_elenco_escursioni_per_distanza
+
+- rule: Escursioni ordinate per prezzo
+  steps:
+    - intent: elenco_escursioni_per_prezzo
+    - action: utter_elenco_escursioni_per_prezzo
+
+- rule: List tours from Caramanico (EN)
+  steps:
+    - intent: tours_from_caramanico
+    - action: utter_tours_from_caramanico
+
+- rule: List easy tours (EN)
+  steps:
+    - intent: easy_tours
+    - action: utter_easy_tours
+
+- rule: Tours sorted by duration (EN)
+  steps:
+    - intent: tours_by_duration
+    - action: utter_tours_by_duration
+
+- rule: Tours sorted by distance (EN)
+  steps:
+    - intent: tours_by_distance
+    - action: utter_tours_by_distance
+
+- rule: Tours sorted by price (EN)
+  steps:
+    - intent: tours_by_price
+    - action: utter_tours_by_price
 
