@@ -89,3 +89,62 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- intent: elenco_escursioni_caramanico
+  examples: |
+    - Quali escursioni partono da Caramanico?
+    - Che itinerari offrite con partenza da Caramanico Terme?
+    - Mi puoi elencare le escursioni disponibili da Caramanico?
+
+- intent: elenco_escursioni_facili
+  examples: |
+    - Quali sono le escursioni più facili?
+    - Mi consigli un'escursione adatta ai principianti?
+    - Avete itinerari di livello base?
+
+- intent: elenco_escursioni_per_durata
+  examples: |
+    - Puoi ordinare le escursioni dalla più breve alla più lunga?
+    - Quali sono le escursioni ordinate per durata?
+    - Vorrei sapere la durata delle vostre escursioni in ordine crescente.
+
+- intent: elenco_escursioni_per_distanza
+  examples: |
+    - Quali escursioni hanno la distanza minore?
+    - Puoi elencare le escursioni ordinate per distanza?
+    - Vorrei conoscere le escursioni dalla più corta alla più lunga in termini di distanza.
+
+- intent: elenco_escursioni_per_prezzo
+  examples: |
+    - Quali sono le escursioni meno costose?
+    - Puoi elencare le escursioni ordinate per prezzo?
+    - Vorrei sapere i prezzi delle escursioni in ordine crescente.
+
+- intent: tours_from_caramanico
+  examples: |
+    - What tours start from Caramanico?
+    - Which itineraries do you offer departing from Caramanico Terme?
+    - Can you list the available tours from Caramanico?
+
+- intent: easy_tours
+  examples: |
+    - What are the easiest tours?
+    - Can you recommend a beginner-friendly excursion?
+    - Do you have any basic level itineraries?
+
+- intent: tours_by_duration
+  examples: |
+    - Can you list the tours from shortest to longest duration?
+    - What are the tours ordered by duration?
+    - I'd like to know the duration of your tours in ascending order.
+
+- intent: tours_by_distance
+  examples: |
+    - Which tours have the shortest distance?
+    - Can you list the tours ordered by distance?
+    - I'd like to know the tours from shortest to longest in terms of distance.
+
+- intent: tours_by_price
+  examples: |
+    - What are the least expensive tours?
+    - Can you list the tours ordered by price?
+    - I'd like to know the prices of the tours in ascending order.
