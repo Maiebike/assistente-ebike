@@ -8,6 +8,17 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - elenco_escursioni_caramanico
+  - elenco_escursioni_facili
+  - elenco_escursioni_per_durata
+  - elenco_escursioni_per_distanza
+  - elenco_escursioni_per_prezzo
+  - tours_from_caramanico
+  - easy_tours
+  - tours_by_duration
+  - tours_by_distance
+  - tours_by_price
+
 
 responses:
   utter_greet:
@@ -28,6 +39,128 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+    utter_elenco_escursioni_caramanico:
+    - text: |
+        Ecco le escursioni disponibili con partenza da Caramanico Terme:
+        1. Via Nicolao
+        2. Via Belvedere
+        3. Via Rocca
+        4. Via Morronika
+        5. Via Arbovento
+        6. Boscavìa
+        7. Via del Passo
+        8. Via Poderale
+        9. Antiqua Via
+
+  utter_elenco_escursioni_facili:
+    - text: |
+        Le escursioni di livello base sono:
+        1. Via Nicolao
+        2. Via Belvedere
+        3. Via Rocca
+        4. Via Morronika
+        5. Via Arbovento
+
+  utter_elenco_escursioni_per_durata:
+    - text: |
+        Escursioni ordinate per durata:
+        1. Via Nicolao – 2h
+        2. Via Arbovento – 2.5h
+        3. Via Belvedere – 3h
+        4. Via Morronika – 3h
+        5. Via Rocca – 4h
+        6. Boscavìa – 4h
+        7. Via del Passo – 5h
+        8. Via Poderale – 6h
+        9. Antiqua Via – 6h
+
+  utter_elenco_escursioni_per_distanza:
+    - text: |
+        Escursioni ordinate per distanza:
+        1. Via Nicolao – 10 km
+        2. Via Arbovento – 14 km
+        3. Via Belvedere – 20 km
+        4. Via Morronika – 20 km
+        5. Via Rocca – 25 km
+        6. Boscavìa – 33 km
+        7. Via del Passo – 35 km
+        8. Via Poderale – 40 km
+        9. Antiqua Via – 65 km
+
+  utter_elenco_escursioni_per_prezzo:
+    - text: |
+        Escursioni ordinate per prezzo (a persona):
+        1. Via Nicolao – 25€
+        2. Via Arbovento – 25€
+        3. Via Belvedere – 35€
+        4. Via Rocca – 35€
+        5. Via Morronika – 35€
+        6. Boscavìa – 45€
+        7. Via del Passo – 50€
+        8. Via Poderale – 55€
+        9. Antiqua Via – 60€
+
+  utter_tours_from_caramanico:
+    - text: |
+        Here are the e-bike tours starting from Caramanico Terme:
+        1. Via Nicolao
+        2. Via Belvedere
+        3. Via Rocca
+        4. Via Morronika
+        5. Via Arbovento
+        6. Boscavìa
+        7. Via del Passo
+        8. Via Poderale
+        9. Antiqua Via
+
+  utter_easy_tours:
+    - text: |
+        Our easiest tours:
+        - Via Nicolao
+        - Via Belvedere
+        - Via Rocca
+        - Via Morronika
+        - Via Arbovento
+
+  utter_tours_by_duration:
+    - text: |
+        Tours sorted by duration:
+        1. Via Nicolao – 2h
+        2. Via Arbovento – 2.5h
+        3. Via Belvedere – 3h
+        4. Via Morronika – 3h
+        5. Via Rocca – 4h
+        6. Boscavìa – 4h
+        7. Via del Passo – 5h
+        8. Via Poderale – 6h
+        9. Antiqua Via – 6h
+
+  utter_tours_by_distance:
+    - text: |
+        Tours sorted by distance:
+        1. Via Nicolao – 10 km
+        2. Via Arbovento – 14 km
+        3. Via Belvedere – 20 km
+        4. Via Morronika – 20 km
+        5. Via Rocca – 25 km
+        6. Boscavìa – 33 km
+        7. Via del Passo – 35 km
+        8. Via Poderale – 40 km
+        9. Antiqua Via – 65 km
+
+  utter_tours_by_price:
+    - text: |
+        Tours sorted by price (per person):
+        1. Via Nicolao – €25
+        2. Via Arbovento – €25
+        3. Via Belvedere – €35
+        4. Via Rocca – €35
+        5. Via Morronika – €35
+        6. Boscavìa – €45
+        7. Via del Passo – €50
+        8. Via Poderale – €55
+        9. Antiqua Via – €60
+
 
 session_config:
   session_expiration_time: 60
